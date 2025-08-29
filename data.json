@@ -1,12 +1,13 @@
 {
   "main": {
-    "name": "Jhon Doe",
+    "name": "Sameer Randive",
     "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
     "titles": [
       "Frontend Development",
       "Backend Development",
       "App Development"
     ],
+    "resumeUrl": "https://drive.google.com/file/d/17op7kX7UM5gcGVFLh964mrxaHyRef6XR/view?usp=drive_link",
     "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
     "techStackImages": [
       "https://img.icons8.com/color/144/000000/material-ui.png",
@@ -26,11 +27,11 @@
   "socials": [
     {
       "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/in/jhon-doe"
+      "link": "https://www.linkedin.com/in/sameer-randive-a82073225/"
     },
     {
       "icon": "FaGithub",
-      "link": "https://github.com/jhon-doe"
+      "link": "https://github.com/sammy171207"
     },
     {
       "icon": "FaInstagram",
@@ -41,23 +42,103 @@
       "link": "https://twitter.com/jhondoe"
     }
   ],
-  "skills": [
-    {
-      "name": "JavaScript",
-      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
-      "category": "Frontend"
-    },
-    {
-      "name": "Firebase",
-      "image": "https://img.icons8.com/color/144/null/firebase.png",
-      "category": "Backend"
-    },
-    {
-      "name": "GitHub",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
-      "category": "Tools"
-    }
-  ],
+"skills": [
+  {
+    "name": "JavaScript",
+    "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+    "category": "Frontend"
+  },
+  {
+    "name": "React.js",
+    "image": "https://img.icons8.com/color/144/null/react-native.png",
+    "category": "Frontend"
+  },
+  {
+    "name": "Next.js",
+    "image": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
+    "category": "Frontend"
+  },
+  {
+    "name": "TailwindCSS",
+    "image": "https://img.icons8.com/color/144/null/tailwindcss.png",
+    "category": "Frontend"
+  },
+  {
+    "name": "HTML",
+    "image": "https://img.icons8.com/color/144/null/html-5--v1.png",
+    "category": "Frontend"
+  },
+  {
+    "name": "CSS",
+    "image": "https://img.icons8.com/color/144/null/css3.png",
+    "category": "Frontend"
+  },
+  {
+    "name": "Bootstrap",
+    "image": "https://img.icons8.com/color/144/null/bootstrap.png",
+    "category": "Frontend"
+  },
+  {
+    "name": "Java",
+    "image": "https://img.icons8.com/color/144/null/java-coffee-cup-logo--v1.png",
+    "category": "Backend"
+  },
+  {
+    "name": "Spring Boot",
+    "image": "https://img.icons8.com/color/144/null/spring-logo.png",
+    "category": "Backend"
+  },
+  {
+    "name": "Node.js",
+    "image": "https://img.icons8.com/color/144/null/nodejs.png",
+    "category": "Backend"
+  },
+  {
+    "name": "Express.js",
+    "image": "https://img.icons8.com/ios/100/null/express-js.png",
+    "category": "Backend"
+  },
+  {
+    "name": "Firebase",
+    "image": "https://img.icons8.com/color/144/null/firebase.png",
+    "category": "Backend"
+  },
+  {
+    "name": "Appwrite",
+    "image": "https://appwrite.io/images/logomark.png",
+    "category": "Backend"
+  },
+  {
+    "name": "MongoDB",
+    "image": "https://img.icons8.com/color/144/null/mongodb.png",
+    "category": "Database"
+  },
+  {
+    "name": "GitHub",
+    "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+    "category": "Tools"
+  },
+  {
+    "name": "AWS",
+    "image": "https://img.icons8.com/color/144/null/amazon-web-services.png",
+    "category": "DevOps"
+  },
+  {
+    "name": "CI/CD",
+    "image": "https://img.icons8.com/external-flat-juicy-fish/60/null/external-ci-cd-devops-flat-flat-juicy-fish.png",
+    "category": "DevOps"
+  },
+  {
+    "name": "Vercel",
+    "image": "https://img.icons8.com/ios-filled/100/null/vercel.png",
+    "category": "Deployment"
+  },
+  {
+    "name": "Postman",
+    "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/null/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
+    "category": "Tools"
+  }
+],
   "projects": [
     {
       "name": "Project Title",
@@ -95,14 +176,14 @@
   ],
   "educations": [
     {
-      "institute": "XYZ School | CBSE",
-      "degree": "HSC Science",
-      "duration": "2014 - 2016"
+      "institute": "Kamla Nehru Mahavidyalaya ",
+      "degree": "BCA",
+      "duration": "2020- 2023"
     },
     {
-      "institute": "XYZ College Of Engineering",
-      "degree": "B.Tech CSE",
-      "duration": "2016 - 2020",
+      "institute": "G H Raisoni College of Engineering and Management",
+      "degree": "MCA",
+      "duration": "2023 - 2025",
       "desc": [
         "Pursuing IT Engineering course from ABC University",
         "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",

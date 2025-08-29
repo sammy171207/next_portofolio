@@ -13,10 +13,12 @@ interface HeroProps {
 const Hero = ({ mainData }: HeroProps) => {
 
     const { theme } = useTheme()
-    const { name, titles, heroImage, shortDesc, techStackImages } = mainData
+    const { name, titles, heroImage, shortDesc, techStackImages ,resumeUrl} = mainData
 
     return (
-        <section id='home' className={`${theme === 'dark' && "bg-grey-900"} relative min-h-screen w-full mx-auto overflow-hidden`}>
+        <section
+           suppressHydrationWarning
+            id='home' className={`${theme === 'dark' && "bg-grey-900"} relative min-h-screen w-full mx-auto overflow-hidden`}>
 
             <div className="absolute -z-10 min-h-screen h-full w-full">
                 <Image
@@ -65,17 +67,31 @@ const Hero = ({ mainData }: HeroProps) => {
                         <span className="relative">SPPU Prep</span>
                     </a> */}
 
-                    <ScrollLink
-                        className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-violet-600 hover:bg-violet-700 dark:bg-violet-700 hover:dark:bg-violet-800 transition-colors group text-white"
-                        to={'about'}
-                        offset={-60}
-                        smooth={true}
-                        duration={500}
-                        isDynamic={true}
-                    >
-                        About Me
-                        <IoIosArrowForward className='group-hover:translate-x-1 transition-transform' />
-                    </ScrollLink>
+                    <div className="flex gap-3 mt-4 justify-start lg:justify-start">
+                        <ScrollLink
+                            className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-violet-600 hover:bg-violet-700 dark:bg-violet-700 hover:dark:bg-violet-800 transition-colors group text-white"
+                            to={'about'}
+                            offset={-60}
+                            smooth={true}
+                            duration={500}
+                            isDynamic={true}
+                        >
+                            About Me
+                            <IoIosArrowForward className='group-hover:translate-x-1 transition-transform' />
+                        </ScrollLink>
+
+                        <a
+                            href={mainData.resumeUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 hover:dark:bg-gray-600 transition-colors group text-black dark:text-white"
+                        >
+                            Resume
+                            <IoIosArrowForward className='group-hover:translate-x-1 transition-transform' />
+                        </a>
+                    </div>
+
+
                 </div>
 
                 <div className="relative mx-auto lg:mx-0 mt-12 md:mt-16 lg:mt-0">
@@ -99,12 +115,12 @@ const Hero = ({ mainData }: HeroProps) => {
 
             </div>
 
-<defs>
-  <linearGradient id="a" x1="56.392" y1="0" x2="189.028" y2="2.312" gradientUnits="userSpaceOnUse">
-    <stop stopColor="#2D88E2" />
-    <stop offset="1" stopColor="#36EC74" />
-  </linearGradient>
-</defs>
+            <defs>
+                <linearGradient id="a" x1="56.392" y1="0" x2="189.028" y2="2.312" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#2D88E2" />
+                    <stop offset="1" stopColor="#36EC74" />
+                </linearGradient>
+            </defs>
         </section>
     )
 }

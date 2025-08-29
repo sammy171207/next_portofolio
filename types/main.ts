@@ -34,6 +34,7 @@ type education = {
 type main = {
     name: string,
     titles: string[],
+    resumeUrl: string,
     heroImage: string,
     shortDesc: string,
     techStackImages: string[],
