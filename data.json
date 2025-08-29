@@ -119,16 +119,6 @@
     "category": "Tools"
   },
   {
-    "name": "AWS",
-    "image": "https://img.icons8.com/color/144/null/amazon-web-services.png",
-    "category": "DevOps"
-  },
-  {
-    "name": "CI/CD",
-    "image": "https://img.icons8.com/external-flat-juicy-fish/60/null/external-ci-cd-devops-flat-flat-juicy-fish.png",
-    "category": "DevOps"
-  },
-  {
     "name": "Vercel",
     "image": "https://img.icons8.com/ios-filled/100/null/vercel.png",
     "category": "Deployment"
