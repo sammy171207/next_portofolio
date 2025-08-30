@@ -8,7 +8,7 @@
       "App Development"
     ],
     "resumeUrl": "https://drive.google.com/file/d/17op7kX7UM5gcGVFLh964mrxaHyRef6XR/view?usp=drive_link",
-    "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "heroImage": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756483801/ChatGPT_Image_Aug_29_2025_05_15_12_PM_e3gbsd.png",
     "techStackImages": [
       "https://img.icons8.com/color/144/000000/material-ui.png",
       "https://img.icons8.com/color/144/000000/html-5--v1.png",
@@ -42,142 +42,150 @@
       "link": "https://twitter.com/jhondoe"
     }
   ],
-"skills": [
-  {
-    "name": "JavaScript",
-    "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
-    "category": "Frontend"
-  },
-  {
-    "name": "React.js",
-    "image": "https://img.icons8.com/color/144/null/react-native.png",
-    "category": "Frontend"
-  },
-  {
-    "name": "Next.js",
-    "image": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
-    "category": "Frontend"
-  },
-  {
-    "name": "TailwindCSS",
-    "image": "https://img.icons8.com/color/144/null/tailwindcss.png",
-    "category": "Frontend"
-  },
-  {
-    "name": "HTML",
-    "image": "https://img.icons8.com/color/144/null/html-5--v1.png",
-    "category": "Frontend"
-  },
-  {
-    "name": "CSS",
-    "image": "https://img.icons8.com/color/144/null/css3.png",
-    "category": "Frontend"
-  },
-  {
-    "name": "Bootstrap",
-    "image": "https://img.icons8.com/color/144/null/bootstrap.png",
-    "category": "Frontend"
-  },
-  {
-    "name": "Java",
-    "image": "https://img.icons8.com/color/144/null/java-coffee-cup-logo--v1.png",
-    "category": "Backend"
-  },
-  {
-    "name": "Spring Boot",
-    "image": "https://img.icons8.com/color/144/null/spring-logo.png",
-    "category": "Backend"
-  },
-  {
-    "name": "Node.js",
-    "image": "https://img.icons8.com/color/144/null/nodejs.png",
-    "category": "Backend"
-  },
-  {
-    "name": "Express.js",
-    "image": "https://img.icons8.com/ios/100/null/express-js.png",
-    "category": "Backend"
-  },
-  {
-    "name": "Firebase",
-    "image": "https://img.icons8.com/color/144/null/firebase.png",
-    "category": "Backend"
-  },
-  {
-    "name": "Appwrite",
-    "image": "https://appwrite.io/images/logomark.png",
-    "category": "Backend"
-  },
-  {
-    "name": "MongoDB",
-    "image": "https://img.icons8.com/color/144/null/mongodb.png",
-    "category": "Database"
-  },
-  {
-    "name": "GitHub",
-    "image": "https://img.icons8.com/material-outlined/96/null/github.png",
-    "category": "Tools"
-  },
-  {
-    "name": "Vercel",
-    "image": "https://img.icons8.com/ios-filled/100/null/vercel.png",
-    "category": "Deployment"
-  },
-  {
-    "name": "Postman",
-    "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/null/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
-    "category": "Tools"
-  }
-],
-  "projects": [
+  "skills": [
     {
-      "name": "Project Title",
-      "techstack": "HTML5, CSS3, JavaScript, jQuery",
-      "category": "MERN Stack",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
-      "links": {
-        "code": "",
-        "video": "",
-        "visit": ""
-      }
+      "name": "JavaScript",
+      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "category": "Frontend"
     },
     {
-      "name": "Project Title",
-      "techstack": "Flutter, Dart, Firebase",
-      "category": "Flutter",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
-      "links": {
-        "code": "",
-        "video": "",
-        "visit": ""
-      }
+      "name": "React.js",
+      "image": "https://img.icons8.com/color/144/null/react-native.png",
+      "category": "Frontend"
     },
     {
-      "name": "Project Title",
-      "techstack": "PHP, MySQL, HTML5, CSS3, Bootstrap, JavaScript",
-      "category": "LAMP Stack",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
-      "links": {
-        "code": "",
-        "video": "",
-        "visit": ""
-      }
+      "name": "Next.js",
+      "image": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
+      "category": "Frontend"
+    },
+    {
+      "name": "TailwindCSS",
+      "image": "https://img.icons8.com/color/144/null/tailwindcss.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "HTML",
+      "image": "https://img.icons8.com/color/144/null/html-5--v1.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "CSS",
+      "image": "https://img.icons8.com/color/144/null/css3.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Bootstrap",
+      "image": "https://img.icons8.com/color/144/null/bootstrap.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Java",
+      "image": "https://img.icons8.com/color/144/null/java-coffee-cup-logo--v1.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Spring Boot",
+      "image": "https://img.icons8.com/color/144/null/spring-logo.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Node.js",
+      "image": "https://img.icons8.com/color/144/null/nodejs.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Express.js",
+      "image": "https://img.icons8.com/ios/100/null/express-js.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Firebase",
+      "image": "https://img.icons8.com/color/144/null/firebase.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Appwrite",
+      "image": "https://appwrite.io/images/logomark.png",
+      "category": "Backend"
+    },
+    {
+      "name": "MongoDB",
+      "image": "https://img.icons8.com/color/144/null/mongodb.png",
+      "category": "Database"
+    },
+    {
+      "name": "GitHub",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "Tools"
+    },
+    {
+      "name": "Vercel",
+      "image": "https://img.icons8.com/ios-filled/100/null/vercel.png",
+      "category": "Deployment"
+    },
+    {
+      "name": "Postman",
+      "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/null/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
+      "category": "Tools"
     }
   ],
+  "projects": [
+  {
+    "name": "Digital Recipe Book – AI Powered",
+    "techstack": "React, Firebase, Tailwind CSS, Cloudinary, Redux, AI Integration",
+    "category": "MERN Stack",
+    "image": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756530610/Screenshot_2025-08-30_101219_vkmeqd.png",
+    "links": {
+      "code": "https://github.com/sammy171207/Digital_Recipe_Book",
+      "video": "https://www.loom.com/share/d01f2ddb11604f01946f3c1d1985b037?sid=26ca3ffa-34fd-475b-bd2c-911ee6e3c1cb",
+      "visit": "https://digitalreceipebook.netlify.app/home"
+    }
+  },
+  {
+    "name": "Hammer Headphones Website",
+    "techstack": "React, Tailwind CSS, Framer Motion, Firebase",
+    "category": "MERN Stack",
+    "image": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756530967/Screenshot_2025-08-30_104431_og8xux.png",
+    "links": {
+      "code": "https://github.com/sammy171207/Hammer_WebPage",
+      "video": "https://www.loom.com/share/1eee131c5b234975964aee8b73fef1b4?sid=e81577ab-e244-4042-9f84-b576f46c605e",
+      "visit": "https://sammy171207.github.io/"
+    }
+  },
+  {
+    "name": "Investment Tracker",
+    "techstack": "React, Node.js, Express, MongoDB, Tailwind CSS",
+    "category": "MERN Stack",
+    "image": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756530595/Screenshot_2025-08-30_102419_gb0asy.png",
+    "links": {
+      "code": "https://github.com/sammy171207/Investment_Tracker",
+      "video": "",
+      "visit": "https://investment-tracker-llau4511r-sameer-randives-projects.vercel.app/"
+    }
+  }
+]
+,
   "educations": [
     {
       "institute": "Kamla Nehru Mahavidyalaya ",
       "degree": "BCA",
-      "duration": "2020- 2023"
+      "duration": "2020- 2023",
+      "desc": [
+        "Completed Bachelor of Computer Applications (BCA) with a strong foundation in programming, software engineering, and database management.",
+        "Built academic projects using HTML, CSS, JavaScript, PHP, and MySQL, focusing on responsive design and backend integration.",
+        "Explored enterprise-level backend development using Java and Spring Boot, implementing RESTful APIs and connecting to relational databases.",
+        "Gained hands-on experience with version control (Git), debugging tools, and collaborative development workflows."
+      ]
     },
     {
       "institute": "G H Raisoni College of Engineering and Management",
       "degree": "MCA",
       "duration": "2023 - 2025",
       "desc": [
-        "Pursuing IT Engineering course from ABC University",
-        "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",
-        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies."
+        "Completed a Master's in Computer Applications (MCA) with a focus on Information Technology.",
+        "Gained hands-on experience in full-stack web development using HTML, CSS, JavaScript, and SQL.",
+        "Designed and implemented database systems, and built dynamic web applications as part of academic projects.",
+        "Well-versed in software development methodologies including Agile and Waterfall, with exposure to collaborative project planning and execution."
       ]
     }
   ],
@@ -193,13 +201,14 @@
       ]
     },
     {
-      "company": "XYZ Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2022 - present",
+      "company": "Asterisc Technocrat Pvt Ltd",
+      "position": "Full Stack Intern",
+      "duration": "2022 - 2023",
       "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+        "Contributed to full-stack development across multiple client projects, focusing on both frontend and backend implementation.",
+        "Built responsive user interfaces using HTML, CSS, TailwindCSS, Bootstrap, and React.js.",
+        "Developed backend modules using PHP and Spring Boot, integrating MySQL databases for dynamic data handling.",
+        "Collaborated with senior developers to debug, optimize, and deploy scalable web applications."
       ]
     }
   ]
