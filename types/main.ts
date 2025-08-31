@@ -7,14 +7,15 @@ type skill = {
 type project = {
     name: string,
     image: string,
-    techstack: string,
+    techstack: string[],
     category: string,
     links: {
         visit: string,
         code: string,
         video: string,
         article?: string
-    }
+    };
+    description: string;
 }
 
 type experience = {
