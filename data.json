@@ -160,7 +160,7 @@
     }
   },{
   "name": "Promptopia",
-  "tech": ["Next.js", "MongoDB", "TailwindCSS"],
+  "tech": "Next.js, MongoDB ,TailwindCSS",
   "techstack": ["React", "Firebase", "Tailwind CSS", "Cloudinary", "Redux", "AI Integration"],
   "category": "MERN Stack",
   "image": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756622342/Promptopia_iye54p.png",
