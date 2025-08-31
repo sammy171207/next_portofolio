@@ -17,7 +17,7 @@
     ]
   },
   "about": {
-    "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "aboutImage": "https://res.cloudinary.com/dflmcqecg/image/upload/v1754027901/syf7gsvey7qbxqpr8uvq.jpg",
     "aboutImageCaption": "< I build stuff 🚀/>",
     "title": "Full Stack Developer",
     "about": "I am a Full-Stack developer based in Nagpur, India. I'm an Information Technology undergraduate from SPPU, and my journey in web development began during my first year of college. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
@@ -103,11 +103,7 @@
       "image": "https://img.icons8.com/color/144/null/firebase.png",
       "category": "Backend"
     },
-    {
-      "name": "Appwrite",
-      "image": "https://appwrite.io/images/logomark.png",
-      "category": "Backend"
-    },
+   
     {
       "name": "MongoDB",
       "image": "https://img.icons8.com/color/144/null/mongodb.png",
@@ -162,7 +158,20 @@
       "video": "",
       "visit": "https://investment-tracker-llau4511r-sameer-randives-projects.vercel.app/"
     }
-  }
+  },{
+  "name": "Promptopia",
+  "tech": ["Next.js", "MongoDB", "TailwindCSS"],
+  "techstack": ["React", "Firebase", "Tailwind CSS", "Cloudinary", "Redux", "AI Integration"],
+  "category": "MERN Stack",
+  "image": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756622342/Promptopia_iye54p.png",
+  "thumbnail": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756622342/Promptopia_iye54p.png",
+  "links": {
+    "code": "https://github.com/sammy171207/Promptopia",
+    "video": "https://www.loom.com/share/d01f2ddb11604f01946f3c1d1985b037?sid=26ca3ffa-34fd-475b-bd2c-911ee6e3c1cb",
+    "visit": "https://promptopia-lbgt50u9o-sameer-randives-projects.vercel.app/"
+  },
+  "description": "Create and share amazing prompts with the world, and let your imagination run wild with any AI-powered platform."
+}
 ]
 ,
   "educations": [
