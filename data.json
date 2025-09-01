@@ -199,16 +199,18 @@
     }
   ],
   "experiences": [
-    {
-      "company": "ABC Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2020 -2022",
-      "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
-      ]
-    },
+ {
+  "company": "Ascent Business Solution Pvt Ltd",
+  "position": "AR Trainee",
+  "duration": "2023 - 2024",
+  "desc": [
+    "Assisted in handling medical billing and insurance claim submissions.",
+    "Supported follow-up on outstanding accounts to ensure timely collections.",
+    "Learned and applied Accounts Receivable processes including payment posting and account reconciliation.",
+    "Worked with the team to resolve claim denials and discrepancies.",
+    "Skills: Accounts Receivable · Medical Billing · Insurance Claims · Account Reconciliation · Communication · MS Excel"
+  ]
+},
     {
       "company": "Asterisc Technocrat Pvt Ltd",
       "position": "Full Stack Intern",
