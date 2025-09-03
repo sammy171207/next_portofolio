@@ -21,10 +21,10 @@ const ProjectCard = ({ name, image, category, techstack, links }: project) => {
                         <FaGithub />
                         <p>Code</p>
                     </Link>}
-                    {links.video && <Link href={links.video} target="_blank" className="flex items-center gap-2 text-gray-500 dark:text-gray-400 hover:text-violet-600 hover:dark:text-violet-600 transition-colors">
+                    {/* {links.video && <Link href={links.video} target="_blank" className="flex items-center gap-2 text-gray-500 dark:text-gray-400 hover:text-violet-600 hover:dark:text-violet-600 transition-colors">
                         <FaVideo />
                         <p>Video</p>
-                    </Link>}
+                    </Link>} */}
                        {links.visit && <Link href={links.visit} target="_blank" className="flex items-center gap-2 text-gray-500 dark:text-gray-400 hover:text-violet-600 hover:dark:text-violet-600 transition-colors">
                         <FaGlobe />
                         <p>Live</p>

@@ -122,18 +122,7 @@
     }
   ],
   "projects": [
-  {
-    "name": "Digital Recipe Book – AI Powered",
-    "video":"https://youtu.be/jXUY6F8RSXA?si=j_Hmr-Ngyo62e8S-",
-    "techstack": "React, Firebase, Tailwind CSS, Cloudinary, Redux, AI Integration",
-    "category": "MERN Stack",
-    "image": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756530610/Screenshot_2025-08-30_101219_vkmeqd.png",
-    "links": {
-      "code": "https://github.com/sammy171207/Digital_Recipe_Book",
-      "video": "https://www.loom.com/share/d01f2ddb11604f01946f3c1d1985b037?sid=26ca3ffa-34fd-475b-bd2c-911ee6e3c1cb",
-      "visit": "https://digitalreceipebook.netlify.app/home"
-    }
-  },
+
   {
     "name": "Hammer Headphones Website",
     "techstack": "React, Tailwind CSS, Framer Motion, Firebase",
