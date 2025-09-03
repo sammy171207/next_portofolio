@@ -72,7 +72,7 @@ const Header = ({ logo }: { logo: string }) => {
       {/* Mobile Menu Overlay */}
       {menuOpen && (
         <div
-          className="fixed inset-0 z-40 bg-black bg-opacity-50 flex flex-col items-center justify-center gap-6 text-white text-lg md:hidden"
+          className="fixed inset-0 z-40 bg-black bg-opacity-50 backdrop-blur-md flex flex-col items-center justify-center gap-6 text-white text-lg md:hidden"
           onClick={() => setMenuOpen(false)} // close menu if overlay clicked
         >
           <div className="flex flex-col items-center gap-6" onClick={e => e.stopPropagation()}>
