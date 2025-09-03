@@ -11,9 +11,18 @@ interface HeroProps {
 }
 
 const Hero = ({ mainData }: HeroProps) => {
-
     const { theme } = useTheme()
-    const { name, titles, heroImage, shortDesc, techStackImages ,resumeUrl} = mainData
+    const { name, titles, heroImage, shortDesc, techStackImages, resumeUrl } = mainData
+
+    const handleResume = () => {
+        const link = document.createElement('a');
+        link.href = '/resume.pdf';
+        link.download = 'resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        window.open(resumeUrl || 'https://drive.google.com/file/d/1akBR9F2nmQHGss9z2KtAJFbj15AzEI0R/view', '_blank');
+    };
 
     return (
         <section
@@ -79,16 +88,13 @@ const Hero = ({ mainData }: HeroProps) => {
                             About Me
                             <IoIosArrowForward className='group-hover:translate-x-1 transition-transform' />
                         </ScrollLink>
-
-                        <a
-                            href={mainData.resumeUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
+                        <button
+                            onClick={handleResume}
                             className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 hover:dark:bg-gray-600 transition-colors group text-black dark:text-white"
                         >
                             Resume
                             <IoIosArrowForward className='group-hover:translate-x-1 transition-transform' />
-                        </a>
+                        </button>
                     </div>
 
 

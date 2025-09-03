@@ -19,14 +19,47 @@ const HomePage = ({ data }: Props) => {
     return (
         <>
             <Header logo={data.main.name} />
-            <Hero mainData={data.main} />
-            <Socials socials={data.socials} />
-            <About aboutData={data.about} name={data.main.name} />
-            <Skills skillData={data.skills} />
-            <Projects projectsData={data.projects} />
-            <Experiences experienceData={data.experiences} educationData={data.educations} />
-            <Contact />
-            <CallToAction />
+            <main>
+                <section id="home">
+                    {/* Hero Section */}
+                    <Hero mainData={data.main} />
+                </section>
+
+                <section id="socials">
+                    {/* Socials Section */}
+                    <Socials socials={data.socials} />
+                </section>
+
+                <section id="about">
+                    {/* About Section */}
+                    <About aboutData={data.about} name={data.main.name} />
+                </section>
+
+                <section id="skills">
+                    {/* Skills Section */}
+                    <Skills skillData={data.skills} />
+                </section>
+
+                <section id="projects">
+                    {/* Projects Section */}
+                    <Projects projectsData={data.projects} />
+                </section>
+
+                <section id="experiences">
+                    {/* Experiences Section */}
+                    <Experiences experienceData={data.experiences} educationData={data.educations} />
+                </section>
+
+                <section id="contact">
+                    {/* Contact Section */}
+                    <Contact />
+                </section>
+
+                <section id="cta">
+                    {/* Call to Action Section */}
+                    <CallToAction />
+                </section>
+            </main>
             <Footer socials={data.socials} name={data.main.name} />
         </>
     )

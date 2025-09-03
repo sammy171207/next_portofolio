@@ -7,7 +7,7 @@
       "Backend Development",
       "App Development"
     ],
-    "resumeUrl": "https://drive.google.com/file/d/17op7kX7UM5gcGVFLh964mrxaHyRef6XR/view?usp=drive_link",
+    "resumeUrl": "https://drive.google.com/file/d/1akBR9F2nmQHGss9z2KtAJFbj15AzEI0R/view?usp=sharing",
     "heroImage": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756483801/ChatGPT_Image_Aug_29_2025_05_15_12_PM_e3gbsd.png",
     "techStackImages": [
       "https://img.icons8.com/color/144/000000/material-ui.png",
@@ -32,81 +32,77 @@
     {
       "icon": "FaGithub",
       "link": "https://github.com/sammy171207"
-    },
-    {
-      "icon": "FaInstagram",
-      "link": "https://www.instagram.com/jhondoe"
-    },
-    {
-      "icon": "FaTwitter",
-      "link": "https://twitter.com/jhondoe"
     }
   ],
   "skills": [
     {
       "name": "JavaScript",
       "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
-      "category": "Frontend"
+      "category": "Full Stack"
     },
     {
       "name": "React.js",
       "image": "https://img.icons8.com/color/144/null/react-native.png",
-      "category": "Frontend"
+      "category": "Full Stack"
     },
     {
       "name": "Next.js",
       "image": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
-      "category": "Frontend"
+      "category": "Full Stack"
     },
     {
       "name": "TailwindCSS",
       "image": "https://img.icons8.com/color/144/null/tailwindcss.png",
-      "category": "Frontend"
+      "category": "Full Stack"
     },
     {
       "name": "HTML",
       "image": "https://img.icons8.com/color/144/null/html-5--v1.png",
-      "category": "Frontend"
+      "category": "Full Stack"
     },
     {
       "name": "CSS",
       "image": "https://img.icons8.com/color/144/null/css3.png",
-      "category": "Frontend"
+      "category": "Full Stack"
     },
     {
       "name": "Bootstrap",
       "image": "https://img.icons8.com/color/144/null/bootstrap.png",
-      "category": "Frontend"
+      "category": "Full Stack"
     },
     {
       "name": "Java",
       "image": "https://img.icons8.com/color/144/null/java-coffee-cup-logo--v1.png",
-      "category": "Backend"
+      "category": "Full Stack"
     },
     {
       "name": "Spring Boot",
       "image": "https://img.icons8.com/color/144/null/spring-logo.png",
-      "category": "Backend"
+      "category": "Full Stack"
     },
     {
       "name": "Node.js",
       "image": "https://img.icons8.com/color/144/null/nodejs.png",
-      "category": "Backend"
+      "category": "Full Stack"
     },
     {
       "name": "Express.js",
       "image": "https://img.icons8.com/ios/100/null/express-js.png",
-      "category": "Backend"
+      "category": "Full Stack"
     },
-    {
-      "name": "Firebase",
-      "image": "https://img.icons8.com/color/144/null/firebase.png",
-      "category": "Backend"
-    },
-   
     {
       "name": "MongoDB",
       "image": "https://img.icons8.com/color/144/null/mongodb.png",
+      "category": "Database"
+    },
+    {
+      "name": "MySQL",
+      "image": "https://img.icons8.com/color/144/null/mysql-logo.png",
+      "category": "Database"
+    },
+    {
+      "name": "PostgreSQL",
+      "image": "https://img.icons8.com/color/144/null/postgreesql.png",
       "category": "Database"
     },
     {
@@ -117,7 +113,7 @@
     {
       "name": "Vercel",
       "image": "https://img.icons8.com/ios-filled/100/null/vercel.png",
-      "category": "Deployment"
+      "category": "Tools"
     },
     {
       "name": "Postman",
