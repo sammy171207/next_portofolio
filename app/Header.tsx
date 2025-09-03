@@ -75,6 +75,13 @@ const Header = ({ logo }: { logo: string }) => {
           className="fixed inset-0 z-40 bg-black bg-opacity-50 backdrop-blur-md flex flex-col items-center justify-center gap-6 text-white text-lg md:hidden"
           onClick={() => setMenuOpen(false)} // close menu if overlay clicked
         >
+          <button
+            aria-label="Close Menu"
+            onClick={() => setMenuOpen(false)}
+            className="absolute top-6 right-6 w-10 h-10 p-2 bg-gray-200 dark:bg-gray-800 rounded-full flex items-center justify-center hover:ring-2 ring-gray-300 transition-all duration-300 z-50"
+          >
+            <HiX className="text-xl text-black dark:text-white" />
+          </button>
           <div className="flex flex-col items-center gap-6" onClick={e => e.stopPropagation()}>
             <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
             <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
