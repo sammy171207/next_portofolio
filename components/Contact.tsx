@@ -60,7 +60,7 @@ const Contact = () => {
                 <Image unoptimized={true} quality={100} alt="contact" src="/contact.png" className="hidden md:block w-1/2 h-full object-cover" width={1000} height={1000} />
                 <div className="flex-1">
                     <h3 className="text-2xl">Get in touch</h3>
-                    <p className="text-gray-400 mb-4 text-sm md:text-base">My inbox is always open! 💌 Whether you&apos;ve got a burning question or want to drop a friendly &quot;hello&quot;, I&apos;m all ears!👂 Let&apos;s chat! 🎉</p>
+                    <p className="text-gray-400 mb-4 text-sm md:text-base">My inbox is always open!  Whether you&apos;ve got a burning question or want to drop a friendly .</p>
                     <form onSubmit={handleSubmit} className="flex flex-col gap-4 rounded-xl">
                         <input onChange={handleChange} required value={values.name} name="name" type="text" placeholder='Full Name *' className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
                         <input onChange={handleChange} required value={values.email} name="email" type="email" placeholder='Email *' className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
@@ -74,7 +74,7 @@ const Contact = () => {
                             <div className="bg-[#6c35e3] text-white px-6 py-4 rounded-xl shadow-lg flex items-center gap-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-white animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                                 <span className="font-bold text-lg">Thank you!</span>
-                                <span className="text-base">Your message was sent successfully. I'll get back to you soon!</span>
+                                <span className="text-base">Your message was sent successfully. I&apos;ll get back to you soon!</span>
                             </div>
                         </div>
                     )}
