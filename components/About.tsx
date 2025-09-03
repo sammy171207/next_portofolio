@@ -15,8 +15,8 @@ const About = ({ aboutData, name }: Props) => {
     const handleResume = () => {
         // Download resume.pdf from public folder
         const link = document.createElement('a');
-        link.href = '/resume.pdf';
-        link.download = 'resume.pdf';
+        link.href = '/Sameer_Randive_resume.pdf';
+        link.download = 'Sameer_Randive_resume.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

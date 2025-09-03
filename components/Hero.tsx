@@ -88,13 +88,13 @@ const Hero = ({ mainData }: HeroProps) => {
                             About Me
                             <IoIosArrowForward className='group-hover:translate-x-1 transition-transform' />
                         </ScrollLink>
-                        <button
+                        {/* <button
                             onClick={handleResume}
                             className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 hover:dark:bg-gray-600 transition-colors group text-black dark:text-white"
                         >
                             Resume
                             <IoIosArrowForward className='group-hover:translate-x-1 transition-transform' />
-                        </button>
+                        </button> */}
                     </div>
 
 
