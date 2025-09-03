@@ -124,6 +124,7 @@
   "projects": [
   {
     "name": "Digital Recipe Book – AI Powered",
+    "video":"https://youtu.be/jXUY6F8RSXA?si=j_Hmr-Ngyo62e8S-",
     "techstack": "React, Firebase, Tailwind CSS, Cloudinary, Redux, AI Integration",
     "category": "MERN Stack",
     "image": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756530610/Screenshot_2025-08-30_101219_vkmeqd.png",
@@ -141,7 +142,7 @@
     "links": {
       "code": "https://github.com/sammy171207/Hammer_WebPage",
       "video": "https://www.loom.com/share/1eee131c5b234975964aee8b73fef1b4?sid=e81577ab-e244-4042-9f84-b576f46c605e",
-      "visit": "https://sammy171207.github.io/"
+      "visit": "https://hammer-webpage.onrender.com/"
     }
   },
   {
@@ -152,7 +153,7 @@
     "links": {
       "code": "https://github.com/sammy171207/Investment_Tracker",
       "video": "",
-      "visit": "https://investment-tracker-llau4511r-sameer-randives-projects.vercel.app/"
+      "visit": "https://investment-tracker-nu.vercel.app/"
     }
   },{
   "name": "Promptopia",
@@ -164,7 +165,7 @@
   "links": {
     "code": "https://github.com/sammy171207/Promptopia",
     "video": "https://www.loom.com/share/d01f2ddb11604f01946f3c1d1985b037?sid=26ca3ffa-34fd-475b-bd2c-911ee6e3c1cb",
-    "visit": "https://promptopia-lbgt50u9o-sameer-randives-projects.vercel.app/"
+    "visit": "https://promptopia-pied-one.vercel.app/"
   },
   "description": "Create and share amazing prompts with the world, and let your imagination run wild with any AI-powered platform."
 }
