@@ -6,9 +6,9 @@ import { MdArticle } from "react-icons/md";
 
 const ProjectCard = ({ name, image, category, techstack, links }: project) => {
     return (
-        <div className="w-full bg-white dark:bg-grey-800 border border-gray-200 dark:border-grey-600 rounded-lg shadow-sm">
-            <Link href={links.visit ? links.visit : links.code} target="_blank">
-                <Image className="rounded-t-lg w-full h-48 object-cover object-center" src={image} alt={name} width={500} height={300} />
+        <div className="w-full bg-white dark:bg-grey-800 border border-gray-200 dark:border-grey-600 rounded-lg shadow-sm transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl group">
+            <Link href={links.visit ? links.visit : links.code} target="_blank" className="block overflow-hidden rounded-t-lg">
+                <Image className="w-full h-48 object-cover object-top transition-transform duration-500 group-hover:scale-110" src={image} alt={name} width={500} height={300} />
             </Link>
             <div className="p-5">
                 <div className="flex items-center justify-between">

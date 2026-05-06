@@ -27,9 +27,9 @@ const Hero = ({ mainData }: HeroProps) => {
     return (
         <section
            suppressHydrationWarning
-            id='home' className={`${theme === 'dark' && "bg-grey-900"} relative min-h-screen w-full mx-auto overflow-hidden`}>
+            id='home' className="dark:bg-gray-900 bg-white relative min-h-screen w-full mx-auto overflow-hidden">
 
-            <div className="absolute -z-10 min-h-screen h-full w-full">
+            <div className="absolute -z-10 min-h-screen h-full w-full hidden dark:block">
                 <Image
                     src="/herobgc.jpg"
                     layout="fill"
@@ -120,13 +120,6 @@ const Hero = ({ mainData }: HeroProps) => {
                 </div>
 
             </div>
-
-            <defs>
-                <linearGradient id="a" x1="56.392" y1="0" x2="189.028" y2="2.312" gradientUnits="userSpaceOnUse">
-                    <stop stopColor="#2D88E2" />
-                    <stop offset="1" stopColor="#36EC74" />
-                </linearGradient>
-            </defs>
         </section>
     )
 }

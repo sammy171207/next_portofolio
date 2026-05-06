@@ -8,7 +8,7 @@
       "App Development"
     ],
     "resumeUrl": "https://drive.google.com/file/d/1akBR9F2nmQHGss9z2KtAJFbj15AzEI0R/view?usp=sharing",
-    "heroImage": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756483801/ChatGPT_Image_Aug_29_2025_05_15_12_PM_e3gbsd.png",
+    "heroImage": "https://res.cloudinary.com/diupi9wdj/image/upload/v1777988899/Gemini_Generated_Image_1vn2761vn2761vn2_rgo1sj.png",
     "techStackImages": [
       "https://img.icons8.com/color/144/000000/material-ui.png",
       "https://img.icons8.com/color/144/000000/html-5--v1.png",
@@ -17,7 +17,7 @@
     ]
   },
   "about": {
-    "aboutImage": "https://res.cloudinary.com/dflmcqecg/image/upload/v1754027901/syf7gsvey7qbxqpr8uvq.jpg",
+    "aboutImage": "https://res.cloudinary.com/diupi9wdj/image/upload/v1777988634/Gemini_Generated_Image_w2jxz2w2jxz2w2jx_pxdtzx.png",
     "aboutImageCaption": "< I build stuff 🚀/>",
     "title": "Full Stack Developer",
     "about": "I am a Full-Stack developer based in Nagpur, India. I'm an Information Technology undergraduate from SPPU, and my journey in web development began during my first year of college. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
@@ -91,6 +91,21 @@
       "category": "Full Stack"
     },
     {
+      "name": "Golang",
+      "image": "https://img.icons8.com/color/100/golang.png",
+      "category": "Full Stack"
+    },
+    {
+      "name": "FastAPI",
+      "image": "https://cdn.simpleicons.org/fastapi/009688",
+      "category": "Full Stack"
+    },
+    {
+      "name": "Python",
+      "image": "https://img.icons8.com/color/100/python.png",
+      "category": "Full Stack"
+    },
+    {
       "name": "MongoDB",
       "image": "https://img.icons8.com/color/144/null/mongodb.png",
       "category": "Database"
@@ -122,44 +137,76 @@
     }
   ],
   "projects": [
-
-  {
-    "name": "Hammer Headphones Website",
-    "techstack": "React, Tailwind CSS, Framer Motion, Firebase",
-    "category": "MERN Stack",
-    "image": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756530967/Screenshot_2025-08-30_104431_og8xux.png",
-    "links": {
-      "code": "https://github.com/sammy171207/Hammer_WebPage",
-      "video": "https://www.loom.com/share/1eee131c5b234975964aee8b73fef1b4?sid=e81577ab-e244-4042-9f84-b576f46c605e",
-      "visit": "https://hammer-webpage.onrender.com/"
+    {
+      "name": "Hammer Headphones Website",
+      "techstack": "React, Tailwind CSS, Framer Motion, Firebase",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/diupi9wdj/image/upload/v1777991031/Screenshot_2026-05-05_195326_bgqrmm.png",
+      "links": {
+        "code": "https://github.com/sammy171207/Hammer_WebPage",
+        "video": "https://www.loom.com/share/1eee131c5b234975964aee8b73fef1b4?sid=e81577ab-e244-4042-9f84-b576f46c605e",
+        "visit": "https://hammer-webpage.onrender.com/"
+      }
+    },
+    {
+      "name": "Investment Tracker",
+      "techstack": "React, Node.js, Express, MongoDB, Tailwind CSS",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/diupi9wdj/image/upload/v1778043078/Screenshot_2026-05-06_102100_pce6fb.png",
+      "links": {
+        "code": "https://github.com/sammy171207/Investment_Tracker",
+        "video": "",
+        "visit": "https://investment-tracker-nu.vercel.app/"
+      }
+    },
+    {
+      "name": "Promptopia",
+      "tech": "Next.js, MongoDB ,TailwindCSS",
+      "techstack": "React, Firebase ,Tailwind CSS ,Cloudinary, Redux, AI Integration",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/diupi9wdj/image/upload/v1778042829/Screenshot_2026-05-06_101648_ippts0.png",
+      "thumbnail": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756622342/Promptopia_iye54p.png",
+      "links": {
+        "code": "https://github.com/sammy171207/Promptopia",
+        "video": "https://www.loom.com/share/d01f2ddb11604f01946f3c1d1985b037?sid=26ca3ffa-34fd-475b-bd2c-911ee6e3c1cb",
+        "visit": "https://promptopia-pied-one.vercel.app/"
+      },
+      "description": "Create and share amazing prompts with the world, and let your imagination run wild with any AI-powered platform."
+    },
+    {
+      "name": "CrypoLab Website",
+      "techstack": "Next.js, Three.js, Tailwind CSS, Firebase",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/diupi9wdj/image/upload/v1778042665/Screenshot_2026-05-06_101327_vwuskx.png",
+      "links": {
+        "code": "",
+        "video": "",
+        "visit": "https://crypolab.vercel.app/"
+      }
+    },
+    {
+      "name": "Consulty Pro Website",
+      "techstack": "Next.js, Three.js, Tailwind CSS, Firebase, Node.js, Express.js",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/diupi9wdj/image/upload/v1778042942/Screenshot_2026-05-06_101849_mflkus.png",
+      "links": {
+        "code": "",
+        "video": "",
+        "visit": "https://consulty-pro.vercel.app/"
+      }
+    },
+    {
+      "name": "Cloud Flow",
+      "techstack": "Next.js, Three.js, Tailwind CSS, Firebase, Node.js, Express.js",
+      "category": "MERN Stack",
+      "image": "https://res.cloudinary.com/diupi9wdj/image/upload/v1778043256/Screenshot_2026-05-06_102401_njq10q.png",
+      "links": {
+        "code": "",
+        "video": "",
+        "visit": "https://vercel.com/sameer-randives-projects/cloud-flow"
+      }
     }
-  },
-  {
-    "name": "Investment Tracker",
-    "techstack": "React, Node.js, Express, MongoDB, Tailwind CSS",
-    "category": "MERN Stack",
-    "image": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756530595/Screenshot_2025-08-30_102419_gb0asy.png",
-    "links": {
-      "code": "https://github.com/sammy171207/Investment_Tracker",
-      "video": "",
-      "visit": "https://investment-tracker-nu.vercel.app/"
-    }
-  },{
-  "name": "Promptopia",
-  "tech": "Next.js, MongoDB ,TailwindCSS",
-  "techstack": "React, Firebase ,Tailwind CSS ,Cloudinary, Redux, AI Integration",
-  "category": "MERN Stack",
-  "image": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756622342/Promptopia_iye54p.png",
-  "thumbnail": "https://res.cloudinary.com/dflmcqecg/image/upload/v1756622342/Promptopia_iye54p.png",
-  "links": {
-    "code": "https://github.com/sammy171207/Promptopia",
-    "video": "https://www.loom.com/share/d01f2ddb11604f01946f3c1d1985b037?sid=26ca3ffa-34fd-475b-bd2c-911ee6e3c1cb",
-    "visit": "https://promptopia-pied-one.vercel.app/"
-  },
-  "description": "Create and share amazing prompts with the world, and let your imagination run wild with any AI-powered platform."
-}
-]
-,
+  ],
   "educations": [
     {
       "institute": "Kamla Nehru Mahavidyalaya ",
@@ -182,21 +229,32 @@
         "Designed and implemented database systems, and built dynamic web applications as part of academic projects.",
         "Well-versed in software development methodologies including Agile and Waterfall, with exposure to collaborative project planning and execution."
       ]
+    },
+    {
+      "institute": "Masai School",
+      "degree": "Full Stack Web Development (MERN)",
+      "duration": "January 2025 - November 2025",
+      "desc": [
+        "Completed an intensive full-stack development program focused on the MERN stack (MongoDB, Express.js, React, Node.js).",
+        "Built scalable web applications with hands-on experience in frontend and backend integration, REST APIs, and database design.",
+        "Strengthened problem-solving skills by practicing Data Structures and Algorithms (DSA) regularly.",
+        "Developed strong communication, teamwork, and collaboration skills through group projects and peer learning."
+      ]
     }
   ],
   "experiences": [
- {
-  "company": "Ascent Business Solution Pvt Ltd",
-  "position": "AR Trainee",
-  "duration": "2023 - 2024",
-  "desc": [
-    "Assisted in handling medical billing and insurance claim submissions.",
-    "Supported follow-up on outstanding accounts to ensure timely collections.",
-    "Learned and applied Accounts Receivable processes including payment posting and account reconciliation.",
-    "Worked with the team to resolve claim denials and discrepancies.",
-    "Skills: Accounts Receivable · Medical Billing · Insurance Claims · Account Reconciliation · Communication · MS Excel"
-  ]
-},
+    {
+      "company": "Ascent Business Solution Pvt Ltd",
+      "position": "AR Trainee",
+      "duration": "2023 - 2024",
+      "desc": [
+        "Assisted in handling medical billing and insurance claim submissions.",
+        "Supported follow-up on outstanding accounts to ensure timely collections.",
+        "Learned and applied Accounts Receivable processes including payment posting and account reconciliation.",
+        "Worked with the team to resolve claim denials and discrepancies.",
+        "Skills: Accounts Receivable · Medical Billing · Insurance Claims · Account Reconciliation · Communication · MS Excel"
+      ]
+    },
     {
       "company": "Asterisc Technocrat Pvt Ltd",
       "position": "Full Stack Intern",
@@ -206,6 +264,19 @@
         "Built responsive user interfaces using HTML, CSS, TailwindCSS, Bootstrap, and React.js.",
         "Developed backend modules using PHP and Spring Boot, integrating MySQL databases for dynamic data handling.",
         "Collaborated with senior developers to debug, optimize, and deploy scalable web applications."
+      ]
+    },
+    {
+      "company": "NeevCloud AISuperCloud Pvt Ltd",
+      "position": "Software Development Engineer (SDE-1)",
+      "duration": "2023 - Present",
+      "desc": [
+        "Designed and developed scalable backend services using Golang and Python, focusing on high-performance APIs and microservices architecture.",
+        "Built AI-powered platforms for video and image generation by integrating multiple AI models and managing large-scale processing workflows.",
+        "Developed an intelligent document interaction platform that allows users to upload, process, and query data using advanced LLM-based systems.",
+        "Implemented vector search and semantic retrieval using pgvector and PostgreSQL for efficient embeddings storage and querying.",
+        "Built modern, high-performance frontend applications using Next.js for seamless user experience.",
+        "Collaborated with cross-functional teams to design, optimize, and deploy scalable, production-ready systems."
       ]
     }
   ]
