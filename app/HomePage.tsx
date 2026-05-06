@@ -18,7 +18,7 @@ interface Props {
 const HomePage = ({ data }: Props) => {
     return (
         <>
-            <Header logo={data.main.name} resumeUrl={data.main.resumeUrl} />
+            <Header logo={data.main.name} />
             <main>
                 <section id="home">
                     {/* Hero Section */}

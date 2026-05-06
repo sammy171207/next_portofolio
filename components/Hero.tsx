@@ -12,16 +12,15 @@ interface HeroProps {
 
 const Hero = ({ mainData }: HeroProps) => {
     const { theme } = useTheme()
-    const { name, titles, heroImage, shortDesc, techStackImages, resumeUrl } = mainData
+    const { name, titles, heroImage, shortDesc, techStackImages } = mainData
 
     const handleResume = () => {
         const link = document.createElement('a');
-        link.href = '/resume.pdf';
-        link.download = 'resume.pdf';
+        link.href = 'https://drive.google.com/uc?export=download&id=1SQutvlN58ogQqvRu9QN-IZpSaBbkKnXr';
+        link.download = 'Sameer_Randive_resume.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
-        window.open(resumeUrl || 'https://drive.google.com/file/d/1akBR9F2nmQHGss9z2KtAJFbj15AzEI0R/view', '_blank');
     };
 
     return (

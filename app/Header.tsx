@@ -5,7 +5,7 @@ import { BiMoon, BiSun } from "react-icons/bi";
 import { FaNodeJs } from 'react-icons/fa6';
 import { HiMenu, HiX } from "react-icons/hi";
 
-const Header = ({ logo, resumeUrl }: { logo: string; resumeUrl: string }) => {
+const Header = ({ logo }: { logo: string }) => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,15 +21,11 @@ const Header = ({ logo, resumeUrl }: { logo: string; resumeUrl: string }) => {
 
   const handleResume = () => {
     const link = document.createElement("a");
-    link.href = "/Sameer_Randive_resume.pdf";
+    link.href = "https://drive.google.com/uc?export=download&id=1SQutvlN58ogQqvRu9QN-IZpSaBbkKnXr";
     link.download = "Sameer_Randive_resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    window.open(
-      resumeUrl || "https://drive.google.com/file/d/1akBR9F2nmQHGss9z2KtAJFbj15AzEI0R/view?usp=sharing",
-      "_blank"
-    );
   };
 
   if (!mounted) return null;
