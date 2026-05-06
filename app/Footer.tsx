@@ -16,7 +16,7 @@ export default function Footer({ socials, name }: { socials: social[], name: str
                     <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-6">
                         <div className="flex items-center gap-2">
                             <span className="font-semibold">Contact:</span>
-                            <a href="tel:9595621476" className="text-violet-600 hover:underline">9595621476</a>
+                            <a href="tel:7757864317" className="text-violet-600 hover:underline">7757864317</a>
                         </div>
                         <div className="flex items-center gap-2">
                             <span className="font-semibold">Email:</span>

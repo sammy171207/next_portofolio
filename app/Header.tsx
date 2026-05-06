@@ -5,7 +5,7 @@ import { BiMoon, BiSun } from "react-icons/bi";
 import { FaNodeJs } from 'react-icons/fa6';
 import { HiMenu, HiX } from "react-icons/hi";
 
-const Header = ({ logo }: { logo: string }) => {
+const Header = ({ logo, resumeUrl }: { logo: string; resumeUrl: string }) => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,6 +18,19 @@ const Header = ({ logo }: { logo: string }) => {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "auto";
   }, [menuOpen]);
+
+  const handleResume = () => {
+    const link = document.createElement("a");
+    link.href = "/Sameer_Randive_resume.pdf";
+    link.download = "Sameer_Randive_resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    window.open(
+      resumeUrl || "https://drive.google.com/file/d/1akBR9F2nmQHGss9z2KtAJFbj15AzEI0R/view?usp=sharing",
+      "_blank"
+    );
+  };
 
   if (!mounted) return null;
 
@@ -32,8 +45,10 @@ const Header = ({ logo }: { logo: string }) => {
       <nav className="hidden md:flex gap-6">
         <a href="#home" className="hover:underline">Home</a>
         <a href="#about" className="hover:underline">About</a>
+        <a href="#experiences" className="hover:underline">Experience & Education</a>
         <a href="#projects" className="hover:underline">Projects</a>
         <a href="#skills" className="hover:underline">Skills</a>
+        <button onClick={handleResume} className="hover:underline">Resume</button>
         <a href="#contact" className="hover:underline">Contact</a>
       </nav>
 
@@ -85,8 +100,10 @@ const Header = ({ logo }: { logo: string }) => {
           <div className="flex flex-col items-center gap-6" onClick={e => e.stopPropagation()}>
             <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
             <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
+            <a href="#experiences" onClick={() => setMenuOpen(false)}>Experience & Education</a>
             <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
             <a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a>
+            <button onClick={() => { handleResume(); setMenuOpen(false); }}>Resume</button>
             <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
           </div>
         </div>

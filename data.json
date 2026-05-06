@@ -7,7 +7,7 @@
       "Backend Development",
       "App Development"
     ],
-    "resumeUrl": "https://drive.google.com/file/d/1akBR9F2nmQHGss9z2KtAJFbj15AzEI0R/view?usp=sharing",
+    "resumeUrl": "https://drive.google.com/file/d/1SQutvlN58ogQqvRu9QN-IZpSaBbkKnXr/view",
     "heroImage": "https://res.cloudinary.com/diupi9wdj/image/upload/v1777988899/Gemini_Generated_Image_1vn2761vn2761vn2_rgo1sj.png",
     "techStackImages": [
       "https://img.icons8.com/color/144/000000/material-ui.png",
@@ -134,6 +134,26 @@
       "name": "Postman",
       "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/null/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
       "category": "Tools"
+    },
+    {
+      "name": "Communication",
+      "image": "https://img.icons8.com/color/96/communication.png",
+      "category": "Soft Skills"
+    },
+    {
+      "name": "Teamwork",
+      "image": "https://img.icons8.com/color/96/conference-call.png",
+      "category": "Soft Skills"
+    },
+    {
+      "name": "Problem Solving",
+      "image": "https://img.icons8.com/color/96/idea-sharing.png",
+      "category": "Soft Skills"
+    },
+    {
+      "name": "Adaptability",
+      "image": "https://img.icons8.com/color/96/change.png",
+      "category": "Soft Skills"
     }
   ],
   "projects": [

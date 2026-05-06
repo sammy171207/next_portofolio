@@ -8,6 +8,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 import { database } from "../firebase";
 import { ref, push } from "firebase/database";
+import { FaLinkedin } from "react-icons/fa6";
 
 const Contact = () => {
 
@@ -61,6 +62,23 @@ const Contact = () => {
                 <div className="flex-1">
                     <h3 className="text-2xl">Get in touch</h3>
                     <p className="text-gray-400 mb-4 text-sm md:text-base">My inbox is always open!  Whether you&apos;ve got a burning question or want to drop a friendly .</p>
+                    <div className="mb-6 grid gap-3 text-sm md:text-base">
+                        <div className="flex items-center gap-2">
+                            <span className="font-semibold">Phone:</span>
+                            <a href="tel:7757864317" className="text-violet-600 hover:underline">7757864317</a>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <span className="font-semibold">Email:</span>
+                            <a href="mailto:sameerrandive558@gmail.com" className="text-violet-600 hover:underline">sameerrandive558@gmail.com</a>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <span className="font-semibold">LinkedIn:</span>
+                            <a href="https://www.linkedin.com/in/sameer-randive-a82073225/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-violet-600 hover:underline">
+                                <FaLinkedin />
+                                View Profile
+                            </a>
+                        </div>
+                    </div>
                     <form onSubmit={handleSubmit} className="flex flex-col gap-4 rounded-xl">
                         <input onChange={handleChange} required value={values.name} name="name" type="text" placeholder='Full Name *' className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
                         <input onChange={handleChange} required value={values.email} name="email" type="email" placeholder='Email *' className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
